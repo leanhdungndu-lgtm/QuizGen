@@ -243,8 +243,8 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/ai-quiz-generator/issues)
-- **Email**: your.email@example.com
+- **Issues**: [GitHub Issues](https://github.com/Oriall/QuizGen/issues)
+- **Email**: Moraxzongli28@example.com
 
 ---
 
