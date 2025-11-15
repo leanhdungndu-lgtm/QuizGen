@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Quiz Generator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/Neko_Gojo_sensei-removebg-preview.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+</head>
+
+<body>
+    <div class="tech-badge">🤖 AI Quiz Generator</div>
+
+    <div class="container">
+        <h1>🎯 AI Quiz Generator</h1>
+
+        <div class="upload-section">
+            <h2>📄 Upload PDF hoặc Word File</h2>
+            <p style="margin: 15px 0; color: #888;">Hỗ trợ định dạng: .pdf, .doc, .docx</p>
+            <div class="file-input-wrapper">
+                <input type="file" id="fileInput" accept=".pdf,.doc,.docx">
+                <label for="fileInput" class="file-input-label">Chọn File</label>
+            </div>
+            <p id="fileName" style="margin-top: 15px; color: #667eea;"></p>
+        </div>
+
+        <div id="pdfPreview" class="pdf-preview">
+            <h3>📄 File: <span class="filename" id="previewFileName"></span></h3>
+            <p><strong>Preview nội dung (500 ký tự đầu):</strong></p>
+            <pre id="previewContent"></pre>
+            <p><em>Tổng số ký tự: <span id="totalChars"></span></em></p>
+        </div>
+
+        <div id="controls" class="controls">
+            <button id="newQuestion">➕ Tạo 1 câu hỏi mới</button>
+            <button id="newBatch">🔥 Tạo 5 câu hỏi mới</button>
+            <button id="reset">⬅ Upload file mới</button>
+        </div>
+
+        <div id="quizContainer"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
