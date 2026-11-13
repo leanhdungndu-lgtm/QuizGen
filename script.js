@@ -1,5 +1,5 @@
 // Configuration
-const GEMINI_API_KEY = 'AIzaSyCbWfOla29VASM0_jlfPIhUCqeCyaZA5jU';
+const GEMINI_API_KEY = AQ.Ab8RN6JM9xQbiHjQteYqrv8gNNJj8zpf2Ubjc_EIHBhp8Gtk0Q;
 const MODEL = "gemini-2.0-flash";
 
 // Global variables
